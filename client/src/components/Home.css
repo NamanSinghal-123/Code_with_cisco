@@ -1,0 +1,146 @@
+/* styles.css (or use inline styles within your components) */
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the entire page */
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  /* Left Section Styles */
+  .left-section {
+    width: 25%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .left-section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Middle Section Styles */
+  .middle-section {
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .post-card {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .post-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .post-card .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-card .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-card .user-info p {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .post-card .user-info .username {
+    color: #333333;
+  }
+  
+  .post-card .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .post-card .actions button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    background-color: #3490dc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-card .actions button:hover {
+    background-color: #2779bd;
+  }
+  
+  /* Right Section Styles */
+  .right-section {
+    width: 25%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .right-section .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .right-section .profile-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .right-section .profile-info p {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .right-section .profile-info .username {
+    color: #333333;
+  }
+  
+  /* Logout Button at Bottom */
+  .logout-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e53e3e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c53030;
+  }
+  

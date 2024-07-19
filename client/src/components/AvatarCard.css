@@ -1,0 +1,76 @@
+.avatar-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .post {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .username {
+    font-weight: 600;
+  }
+  
+  .caption {
+    color: gray;
+  }
+  
+  .device-image-container {
+    margin-bottom: 1rem;
+  }
+  
+  .device-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .like-button, .comment-button, .share-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .like-button {
+    background-color: #3b82f6;
+  }
+  
+  .like-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .comment-button {
+    background-color: #10b981;
+  }
+  
+  .comment-button:hover {
+    background-color: #059669;
+  }
+  
+  .share-button {
+    background-color: #fbbf24;
+  }
+  
+  .share-button:hover {
+    background-color: #f59e0b;
+  }
+  
